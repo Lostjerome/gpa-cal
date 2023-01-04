@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://Lostjerome.github.io/gpa-cal",
+  "homepage": "http://lostjerome.github.io/gpa-cal",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
