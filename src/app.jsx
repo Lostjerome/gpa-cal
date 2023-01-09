@@ -85,7 +85,7 @@ export function App() {
         </div>
         <button
           onClick={addRow}
-          className="mt-3 border-2 border-dashed border-blue-500 text-blue-500 hover:bg-blue-50 duration-200 rounded-lg py-2 px-3 "
+          className="mt-3 border-2 border-dashed border-blue-500 text-blue-500 active:bg-blue-50 lg:hover:bg-blue-50 duration-200 rounded-lg py-2 px-3 "
         >
           +
         </button>
@@ -94,13 +94,13 @@ export function App() {
             onClick={() => {
               location.reload();
             }}
-            className="w-full border-2 border-solid border-gray-300 rounded-full py-2 px-3 "
+            className="w-full border-2 border-solid border-gray-300 text-gray-300 rounded-full py-2 px-3 "
           >
             Clear
           </button>
           <button
             onClick={calculateButtonHandler}
-            className="w-full text-white font-bold bg-blue-500 hover:bg-blue-400 duration-200 rounded-full py-2 px-3 "
+            className="w-full text-white font-bold bg-blue-500 active:bg-blue-400 lg:hover:bg-blue-400 duration-200 rounded-full py-2 px-3 "
           >
             Calculate
           </button>
