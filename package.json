@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "preact": "^10.11.3"
   },
   "devDependencies": {
